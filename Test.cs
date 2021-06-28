@@ -4,8 +4,13 @@ namespace Reflection
 {
     class Test 
     {
-        public void MakeCar() {
-            Car car = new Car("Audi", "A4","SLD4 TYZ", 2004, 30000);
+        public Test() {
+        }
+
+
+        public Car MakeCar() {
+           Car car = new Car("Audi", "A4","SLD4 TYZ", 2004, 30000);
+           return car;
         }
 
         public void RunTests(Car car){
