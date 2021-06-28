@@ -19,10 +19,12 @@ namespace Reflection
           this.currentValue = CurrentVal; 
         }
 
-        public double getValue() => return this.currentValue;
-        public double getYear() => return this.year;
-        public override string ToString() { 
-            return $"This car is a {this.make} {this.model} with registration {this.registration} made in {this.year} with a value of {this.currentValue}"
+        public double getValue() { return this.currentValue;}
+        public double getYear() {return this.year;}
+
+        public override string ToString() {
+            string sentence = $"This car is a  
+            return $"This car is a {this.make} {this.model} with registration {this.registration} made in {this.getYear()} with a current value of {this.getValue()}";
         }
 
     }

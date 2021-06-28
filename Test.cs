@@ -4,10 +4,10 @@ namespace Reflection
 {
     class Test 
     {
-        public void Test(Car car){
-            car.getValue();
-            car.getYear();
-            car.toString();            
+        public void RunTests(Car car){
+            Console.WriteLine(car.getValue());
+            Console.WriteLine(car.getYear());
+            Console.WriteLine(car.toString());            
         }
     }
 }
