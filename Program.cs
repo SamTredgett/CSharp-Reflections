@@ -6,7 +6,7 @@ namespace Reflection
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
