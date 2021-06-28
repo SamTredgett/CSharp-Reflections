@@ -23,7 +23,7 @@ namespace Reflection
         public double getYear() {return this.year;}
 
         public override string ToString() {
-            return "Make: " + make + " Model: " + model + " Registration: " + registration + " Year: "  + year + " Current Value: £"  + currentValue;
+            return "\nMake: " + make + "\nModel: " + model + "\nRegistration: " + registration + "\nYear: "  + year + "\nCurrent Value: £"  + currentValue;
         }
 
     }
