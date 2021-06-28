@@ -4,11 +4,11 @@ namespace Reflection
 {
     class Car 
     {
-        private string make;
-        private string model;
-        private string registration;
-        private double year;
-        private double currentValue;
+        public string make;
+        public string model;
+        public string registration;
+        public double year;
+        public double currentValue;
 
         public Car(string Make, string Model, string Registration, double Year, double CurrentVal)
         {
@@ -23,8 +23,7 @@ namespace Reflection
         public double getYear() {return this.year;}
 
         public override string ToString() {
-            string sentence = $"This car is a  
-            return $"This car is a {this.make} {this.model} with registration {this.registration} made in {this.getYear()} with a current value of {this.getValue()}";
+            return "Make: " + make + "Model: " + model + "Registration: " + registration + "Year: "  + year + "Current Value: £"  + currentValue;
         }
 
     }
